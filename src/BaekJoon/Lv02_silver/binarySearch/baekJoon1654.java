@@ -25,7 +25,6 @@ public class baekJoon1654 {
                 max = A[i];
             }
         }
-
         max++;
 
         long start = 0;
