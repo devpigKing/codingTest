@@ -1,5 +1,8 @@
 package BaekJoon.Lv01_bronze;
 
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
 public class baekJoon1152 {
     public static void main(String[] args) {
         /*
@@ -18,6 +21,16 @@ public class baekJoon1152 {
         출력
         첫째 줄에 단어의 개수를 출력한다.
          */
+
+        Scanner sc = new Scanner(System.in);
+
+        String A = sc.nextLine();
+
+        StringTokenizer st = new StringTokenizer(A, " ");
+
+        System.out.println(st.countTokens());
+
+
 
 
     }
